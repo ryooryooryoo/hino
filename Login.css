@@ -1,0 +1,228 @@
+.image-4-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  position: relative;
+  width: 160px;
+  height: 54px;
+}
+.login-portal-karoseri {
+  position: relative;
+  line-height: 28px;
+}
+.content,
+.logo-parent {
+  display: flex;
+  align-items: center;
+}
+.logo-parent {
+  flex-direction: column;
+  justify-content: center;
+  color: var(--secondary-color);
+}
+.content {
+  border: 1px solid var(--gray-300);
+  font-family: var(--body-mid-regular);
+  font-size: var(--body-large-bold-size);
+  background-color: var(--primary-light);
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  justify-content: flex-start;
+}
+.helptext {
+  position: relative;
+  font-size: var(--body-small-regular-size);
+  line-height: 12px;
+  color: var(--gray-500);
+  display: none;
+}
+.input,
+.input-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.input-parent {
+  width: 349px;
+  gap: var(--gap-3xs);
+  color: var(--gray-900);
+}
+.checkbox-iconsuncheck {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.checks,
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checks {
+  align-items: center;
+  justify-content: center;
+}
+.lupa-password {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.checks-parent {
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--body-small-regular-size);
+}
+.box-arrow-right-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.arrow-narrow-right-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-color);
+  width: 334px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  min-height: 38px;
+  color: var(--primary-light);
+}
+.register {
+  color: var(--primary-color);
+}
+.belum-bergabung-register-container {
+  position: relative;
+  font-size: var(--body-small-regular-size);
+  line-height: 16px;
+}
+.container,
+.login-wrapper {
+  display: flex;
+  align-items: center;
+}
+.login-wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-light);
+  box-shadow: var(--shadow-large);
+  width: 451px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-5xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-large-bold-size);
+  color: var(--gray-800);
+  font-family: var(--body-mid-regular);
+}
+.pt-hino-motors {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.copyright-2023-pt-container {
+  position: relative;
+  line-height: 16px;
+}
+.wrapper-icon-socmed-child {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wrapper-icon-socmed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.copyright-2023-pt-hino-motors-parent {
+  width: 950px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.footnote,
+.login {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footnote {
+  align-self: stretch;
+  padding: var(--padding-base) 0;
+  justify-content: flex-end;
+  background-image: url(./public/footnote@3x.png);
+  text-align: left;
+  font-size: var(--body-small-regular-size);
+  color: var(--primary-light);
+  font-family: var(--body-mid-regular);
+}
+.login {
+  position: relative;
+  width: 100%;
+  height: 832px;
+  justify-content: flex-start;
+  background-image: url(./public/bglogin-1@2x.png);
+}
